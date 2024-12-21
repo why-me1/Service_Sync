@@ -1,0 +1,16 @@
+{
+  "name": "service_sync",
+  "version": "1.0.0",
+  "description": "Connect with trusted taskers to get things done quickly and efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arif",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1"
+  }
+}

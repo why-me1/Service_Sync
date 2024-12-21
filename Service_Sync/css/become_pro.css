@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.pro-container {
+    background: #fff;
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    max-width: 90%;
+    overflow: visible;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px; 
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    visibility: hidden;
+    margin-top: 5px;
+}
+
+input.error {
+    border-color: red;
+}
+
+input.success {
+    border-color: green;
+}
+
+form h2 {
+    text-align: center;
+    margin: 0 0 20px 0; 
+    font-size: 26px;
+    color: #333;
+    padding: 10px 0;
+    line-height: 1.2;
+    display: block;
+}
+
+#govId,
+#addressProof {
+    margin-bottom: 15px;
+}
+
+
+
